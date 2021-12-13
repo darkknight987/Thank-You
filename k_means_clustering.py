@@ -5,7 +5,7 @@ from sklearn.cluster import KMeans
 from sklearn.preprocessing import StandardScaler
 from sklearn.metrics import silhouette_score
 
-df = pd.read_csv(r"D:\Jayesh\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\Mall_Customers.csv")
+df = pd.read_csv(r"D:\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\Mall_Customers.csv")
 df["Gender"].replace({"Male": 0, "Female": 1}, inplace=True)
 X = StandardScaler().fit_transform(df)
 
