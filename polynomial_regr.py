@@ -63,7 +63,7 @@ boston_df = pd.DataFrame(data = boston.data, columns = boston.feature_names)
 boston_df['MEDV'] = boston.target
 
 # diabetes dataset
-diab_df = pd.read_csv(r"D:\Jayesh\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\diabetes.csv")
+diab_df = pd.read_csv(r"D:\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\diabetes.csv")
 
 print("\nFor boston housing dataset: ")
 perform_poly_reg(boston_df, feature = 'LSTAT', target = 'MEDV')
