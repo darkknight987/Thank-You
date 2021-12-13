@@ -7,7 +7,7 @@ import pydotplus
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-input_file = r"D:\Jayesh\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\PastHires.csv"
+input_file = r"D:\\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\PastHires.csv"
 df = pd.read_csv(input_file, header = 0)
 print("\nData before:\n", df.head())
 
