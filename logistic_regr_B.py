@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler, RobustScaler, Normalizer
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv(r"D:\Jayesh\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\User_Data.csv")
+df = pd.read_csv(r"D:\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\User_Data.csv")
 x = df.iloc[:, [2, 3]].values
 y = df.iloc[:, 4].values
 
