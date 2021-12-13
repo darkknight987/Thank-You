@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler, MinMaxScaler, MaxAbsScaler, Ro
 from sklearn.model_selection import train_test_split
 
 # with another dataset
-df = pd.read_csv(r"D:\Jayesh\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\diabetes2.csv")
+df = pd.read_csv(r"D:\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\diabetes2.csv")
 x = df.iloc[:, [1, 4, 5, 7]].values
 y = df.iloc[:, 8].values
 
