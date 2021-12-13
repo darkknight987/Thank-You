@@ -50,7 +50,7 @@ boston_df = pd.DataFrame(data = boston.data, columns = boston.feature_names)
 boston_df['MEDV'] = boston.target
 
 # diabetes dataset
-diab_df = pd.read_csv(r"D:\Jayesh\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\diabetes.csv")
+diab_df = pd.read_csv(r"diabetes.csv")
 
 caller(boston_df, 'LSTAT', 'RM', 'MEDV')
 caller(diab_df, 'bmi', 'ltg', 'y')
