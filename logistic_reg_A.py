@@ -5,7 +5,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split
 
-df = pd.read_csv(r"D:\Jayesh\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\User_Data.csv")
+df = pd.read_csv(r"D:\Msc CS Sem 1\Practicals\Machine Learning\Sample Data\User_Data.csv")
 
 # replacing string values in Gender column
 df["Gender"].replace({"Male": 0, "Female": 1}, inplace=True)
